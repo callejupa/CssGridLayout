@@ -3,6 +3,9 @@
   height: 600px;
   background: url(painting.png) no-repeat;
   display: grid;
+  grid-template-rows: 0.34fr 0.42fr 0.12fr 0.12fr; /* 170px 210px 61px 61px */
+	grid-template-columns: 0.23fr 0.69fr 0.08fr; /* 124px 376px 42px*/
+	grid-gap: 30px 20px; 
   grid-gap: 10px;
 }
 div {
